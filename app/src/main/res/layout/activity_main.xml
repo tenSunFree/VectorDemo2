@@ -1,0 +1,22 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout
+    android:background="#FFEEDD"
+    android:gravity="center"
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context="com.tensun.vectordemo2.MainActivity">
+
+    <!--
+    app:vector="", 放入vectorDrawable資源
+    -->
+    <com.richpath.RichPathView
+        android:id="@+id/egg_brother"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:layout_margin="110dp"
+        android:onClick="animatePhoneGirl"
+        app:vector="@drawable/phone_girl" />
+</LinearLayout>
